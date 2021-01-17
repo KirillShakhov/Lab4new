@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b12f9530-58cd-493f-aa2d-05030faae8ae" name="Default Changelist" comment="hotfix v2">
-      <change beforePath="$PROJECT_DIR$/FrontEnd/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,19 +69,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Weblab4Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="weblab4" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.students.lab.weblab4.Weblab4Application" />
@@ -90,7 +77,7 @@
         <param>
           <option name="enabled" value="true" />
           <option name="name" value="server.port" />
-          <option name="value" value="11000" />
+          <option name="value" value="36310" />
         </param>
       </additionalParameters>
       <method v="2">
@@ -107,6 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610664894727</updated>
       <workItem from="1610664896131" duration="7519000" />
+      <workItem from="1610712616741" duration="861000" />
     </task>
     <task id="LOCAL-00001" summary="init lab(new)">
       <created>1610665512018</created>
@@ -220,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610699788243</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="hotfix v2">
+      <created>1610701728532</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1610701728532</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
