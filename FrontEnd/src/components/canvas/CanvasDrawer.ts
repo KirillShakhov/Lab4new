@@ -45,15 +45,15 @@ export const drawer = (canvas: HTMLCanvasElement, valR: number, points: IPointFe
         //square in the left down
         canvasCtx.strokeStyle = "rgba(29,75,161,0.8)";
         canvasCtx.fillStyle = "rgba(29,75,161,0.8)";
-        canvasCtx.fillRect(getPhysicalX(0), getPhysicalY(0), R/2, R);
+        canvasCtx.fillRect(getPhysicalX(0), getPhysicalY(0), -R, R);
 
         //triangle
         canvasCtx.strokeStyle = "rgba(144,130,55,0.8)";
         canvasCtx.fillStyle = "rgba(144,130,55,0.8)";
         canvasCtx.beginPath();
-        canvasCtx.moveTo(getPhysicalX(0), getPhysicalY(0) + R/2);
+        canvasCtx.moveTo(getPhysicalX(0), getPhysicalY(0) - R/2);
         canvasCtx.lineTo(getPhysicalX(0), getPhysicalY(0));
-        canvasCtx.lineTo(getPhysicalX(0)-R/2, getPhysicalY(0));
+        canvasCtx.lineTo(getPhysicalX(0)+R, getPhysicalY(0));
         canvasCtx.closePath();
         canvasCtx.fill();
         canvasCtx.stroke();
