@@ -22,9 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b12f9530-58cd-493f-aa2d-05030faae8ae" name="Default Changelist" comment="fix formulas and figures">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend-api/pom.xml" afterDir="false" />
+    <list default="true" id="b12f9530-58cd-493f-aa2d-05030faae8ae" name="Default Changelist" comment="fix Spring Boot">
       <change beforePath="$PROJECT_DIR$/backend-api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend-api/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,7 +127,7 @@
       <workItem from="1610976477009" duration="615000" />
       <workItem from="1611946964348" duration="710000" />
       <workItem from="1611947705148" duration="765000" />
-      <workItem from="1612451983976" duration="4309000" />
+      <workItem from="1612451983976" duration="4826000" />
     </task>
     <task id="LOCAL-00001" summary="init lab(new)">
       <created>1610665512018</created>
@@ -285,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612455543590</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="fix Spring Boot">
+      <created>1612456414715</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1612456414715</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,6 +324,7 @@
     <MESSAGE value="Oracle DataBase" />
     <MESSAGE value="refactor README" />
     <MESSAGE value="fix formulas and figures" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix formulas and figures" />
+    <MESSAGE value="fix Spring Boot" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix Spring Boot" />
   </component>
 </project>
