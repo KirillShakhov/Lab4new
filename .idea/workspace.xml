@@ -22,11 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b12f9530-58cd-493f-aa2d-05030faae8ae" name="Default Changelist" comment="Oracle DataBase">
-      <change afterPath="$PROJECT_DIR$/img/pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/task.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/pic.png" beforeDir="false" />
+    <list default="true" id="b12f9530-58cd-493f-aa2d-05030faae8ae" name="Default Changelist" comment="refactor README">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-api/src/main/java/ru/students/lab/weblab4/models/PointEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend-api/src/main/java/ru/students/lab/weblab4/models/PointEntity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +68,9 @@
     <property name="ts.external.directory.path" value="C:\Users\kiril\IdeaProjects\Web.Lab4\frontend\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kiril\IdeaProjects\Web.Lab4\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\kiril\IdeaProjects\Web.Lab4\img" />
     </key>
@@ -117,7 +118,7 @@
       <workItem from="1610976477009" duration="615000" />
       <workItem from="1611946964348" duration="710000" />
       <workItem from="1611947705148" duration="765000" />
-      <workItem from="1612451983976" duration="1283000" />
+      <workItem from="1612451983976" duration="3332000" />
     </task>
     <task id="LOCAL-00001" summary="init lab(new)">
       <created>1610665512018</created>
@@ -252,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612453052654</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="refactor README">
+      <created>1612453339565</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1612453339565</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,6 +292,7 @@
     <MESSAGE value="hotfix" />
     <MESSAGE value="hotfix v2" />
     <MESSAGE value="Oracle DataBase" />
-    <option name="LAST_COMMIT_MESSAGE" value="Oracle DataBase" />
+    <MESSAGE value="refactor README" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor README" />
   </component>
 </project>
