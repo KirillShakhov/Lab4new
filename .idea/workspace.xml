@@ -23,7 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b12f9530-58cd-493f-aa2d-05030faae8ae" name="Default Changelist" comment="fix Spring Boot">
-      <change beforePath="$PROJECT_DIR$/backend-api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend-api/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/src/components/point-form/PointForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/components/point-form/PointForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/src/styles/forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/src/styles/forms.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,20 +80,9 @@
     </key>
   </component>
   <component name="RunManager" selected="JAR Application.Lab4">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Lab4" type="JarApplication">
       <option name="JAR_PATH" value="$PROJECT_DIR$/backend-api/target/weblab4.war" />
-      <option name="WORKING_DIRECTORY" value="C:\Users\kiril\IdeaProjects\Web.Lab4" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\kiril\IdeaProjects\Lab4new" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2" />
     </configuration>

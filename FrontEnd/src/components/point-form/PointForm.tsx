@@ -5,6 +5,9 @@ import {AppState} from "../../store/ducks";
 import {isError} from "../../store/ducks/Points";
 import {IPointFormProps} from "../../pages/HomePage";
 import Alert from "../alert/Alert";
+import Autocomplete from 'react-toolbox/lib/autocomplete';
+import Input from 'react-toolbox/lib/input';
+
 
 
 const PointForm = ({valR, setValR, submitPoint}: IPointFormProps) => {
@@ -13,17 +16,19 @@ const PointForm = ({valR, setValR, submitPoint}: IPointFormProps) => {
     const error = useSelector((state: AppState) => state.points.error);
     const isFetching = useSelector((state: AppState) => state.points.fetching);
     const [pointInput, setPointInput] = useState<IPoint>({x: NaN, y: 0, r: valR});
+    const source = ['-3', '-2', '-1', '0', '1', '2', '3', '4', '5'];
 
     useEffect(() => {
 
     }, []);
-
-    const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-        const { name, value } = event.target;
-        setPointInput(inputs => ({...inputs, [name]: value}));
+    const handleChangeX = (event: number) => {
+        setPointInput(inputs => ({...inputs, ["x"]: event}));
     };
-    const handleChangeR = (event: React.ChangeEvent<HTMLInputElement>) =>
-        setValR(Number(event.target.value));
+    const handleChangeY = (event: number) => {
+        setPointInput(inputs => ({...inputs, ["y"]: event}));
+    };
+    const handleChangeR = (event: number) =>
+        setValR(event);
 
     const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
@@ -32,47 +37,40 @@ const PointForm = ({valR, setValR, submitPoint}: IPointFormProps) => {
 
     return (
         <>
-            { hasError && <Alert type={"error"} content={error?.message} /> }
-
             <form onSubmit={handleSubmit}>
                 <div className="form-group">
                     <label className="main-label text-white"><b>X: </b></label>
-                    { [-5,-4,-3,-2,-1,0,1,2,3].map(item => {
-                        return (
-                            <div className="form-check-inline" key={item}>
-                                <input className={"form-check-input" + (hasError ? ' is-invalid' : '')}
-                                       type="radio"
-                                       onChange={handleChange}
-                                       name="x" value={item} />
-                                <label className="form-check-label">{item}</label>
-                            </div>
-                        )})
-                    }
+                    <Autocomplete
+                        direction="auto"
+                        multiple={false}
+                        onChange={handleChangeX}
+                        source={source}
+                        value={pointInput.x}
+                        selectedPosition={"none"}
+                        className={"default-text-input"}
+                    />
                 </div>
-
                 <div className="form-group">
                     <label className="main-label text-white"><b>Y: </b></label>
-                    <input type="text" name="y"
+                    <Input type="text" name="y"
                            value={pointInput.y}
-                           onChange={handleChange}
+                           onChange={handleChangeY}
                            className={'default-text-inputY' + (hasError ? ' is-invalid' : '')} />
                 </div>
-
                 <div className="form-group">
                     <label className="main-label text-white"><b>R: </b></label>
-                    { [-5,-4,-3,-2,-1,0,1,2,3].map(item => {
-                        return (
-                            <div className="form-check-inline" key={item}>
-                                <input className={"form-check-input" + (hasError ? ' is-invalid' : '')}
-                                       type="radio"
-                                       onChange={handleChangeR}
-                                       name="r" value={item} />
-                                <label className="form-check-label">{item}</label>
-                            </div>
-                        )})
-                    }
+                    <Autocomplete
+                        direction="auto"
+                        multiple={false}
+                        onChange={handleChangeR}
+                        source={source}
+                        value={pointInput.r}
+                        className={"default-text-input"}
+                    />
                 </div>
-
+                <div className="form-group">
+                    { hasError && <Alert type={"error"} content={error?.message} /> }
+                </div>
                 <div className="form-group">
                     <button className="default-btn btn-primary btn-block" disabled={isFetching}>
                         Добавить
