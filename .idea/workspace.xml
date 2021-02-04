@@ -22,9 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b12f9530-58cd-493f-aa2d-05030faae8ae" name="Default Changelist" comment="refactor README">
+    <list default="true" id="b12f9530-58cd-493f-aa2d-05030faae8ae" name="Default Changelist" comment="fix formulas and figures">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-api/src/main/java/ru/students/lab/weblab4/models/PointEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend-api/src/main/java/ru/students/lab/weblab4/models/PointEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend-api/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +59,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend-api/target/weblab4.war" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -75,7 +76,7 @@
       <recent name="C:\Users\kiril\IdeaProjects\Web.Lab4\img" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JAR Application.Lab4">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -86,6 +87,12 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="Lab4" type="JarApplication">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/backend-api/target/weblab4.war" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\kiril\IdeaProjects\Web.Lab4" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
     </configuration>
     <configuration name="Weblab4Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="weblab4" />
@@ -102,6 +109,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JAR Application.Lab4" />
+      <item itemvalue="Spring Boot.Weblab4Application" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -118,7 +129,7 @@
       <workItem from="1610976477009" duration="615000" />
       <workItem from="1611946964348" duration="710000" />
       <workItem from="1611947705148" duration="765000" />
-      <workItem from="1612451983976" duration="3332000" />
+      <workItem from="1612451983976" duration="4309000" />
     </task>
     <task id="LOCAL-00001" summary="init lab(new)">
       <created>1610665512018</created>
@@ -260,7 +271,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612453339565</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="fix formulas and figures">
+      <created>1612455524840</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1612455524840</updated>
+    </task>
+    <task id="LOCAL-00022" summary="fix formulas and figures">
+      <created>1612455543590</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1612455543590</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,6 +318,7 @@
     <MESSAGE value="hotfix v2" />
     <MESSAGE value="Oracle DataBase" />
     <MESSAGE value="refactor README" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor README" />
+    <MESSAGE value="fix formulas and figures" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix formulas and figures" />
   </component>
 </project>
