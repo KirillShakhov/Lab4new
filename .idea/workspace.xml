@@ -22,20 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b12f9530-58cd-493f-aa2d-05030faae8ae" name="Default Changelist" comment="hotfix v2">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_oracle_database_jdbc_ojdbc8_19_7_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_oracle_ojdbc_orai18n_19_3_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/weblab4_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/weblab4_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_18.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-api/src/main/java/ru/students/lab/weblab4/security/jwt/AuthEntryPointJwt.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend-api/src/main/java/ru/students/lab/weblab4/security/jwt/AuthEntryPointJwt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-api/src/main/resources/application.example.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend-api/src/main/resources/application.example.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend-api/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-api/weblab4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/backend-api/weblab4.iml" afterDir="false" />
+    <list default="true" id="b12f9530-58cd-493f-aa2d-05030faae8ae" name="Default Changelist" comment="Oracle DataBase">
+      <change afterPath="$PROJECT_DIR$/img/pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/task.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pic.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +60,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -84,6 +75,17 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Weblab4Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="weblab4" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.students.lab.weblab4.Weblab4Application" />
@@ -115,7 +117,7 @@
       <workItem from="1610976477009" duration="615000" />
       <workItem from="1611946964348" duration="710000" />
       <workItem from="1611947705148" duration="765000" />
-      <workItem from="1612451983976" duration="955000" />
+      <workItem from="1612451983976" duration="1283000" />
     </task>
     <task id="LOCAL-00001" summary="init lab(new)">
       <created>1610665512018</created>
@@ -243,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610884448430</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Oracle DataBase">
+      <created>1612453052654</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1612453052654</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +283,7 @@
     <MESSAGE value="fix" />
     <MESSAGE value="hotfix" />
     <MESSAGE value="hotfix v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="hotfix v2" />
+    <MESSAGE value="Oracle DataBase" />
+    <option name="LAST_COMMIT_MESSAGE" value="Oracle DataBase" />
   </component>
 </project>
