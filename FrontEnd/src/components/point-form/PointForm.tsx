@@ -67,7 +67,7 @@ const PointForm = ({valR, setValR, submitPoint}: IPointFormProps) => {
                         selectedPosition="above"
                         onChange={handleChangeR}
                         source={source2}
-                        value={pointInput.r}
+                        value={valR}
                         className={"default-text-input"}
 
                     />
